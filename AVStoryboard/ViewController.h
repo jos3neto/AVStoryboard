@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import "DataObject.h"
 
 @interface ViewController : UIViewController
-
-
+@property (nonatomic) NSUInteger pageIndex;
+@property (strong, nonatomic) DataObject* dataObject;
 @end
 
